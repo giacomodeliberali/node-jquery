@@ -1,5 +1,5 @@
 {
-  "name": "node-jquery",
+  "name": "jquery-jsdom",
   "version": "1.0.0",
   "description": "",
   "main": "dist/index.js",
