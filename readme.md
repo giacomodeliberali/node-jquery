@@ -8,7 +8,9 @@ This library mocks the window with the one provided by jsDOM, making available J
 
 To include jQuery in Node, install with npm:
 
-`npm i node-jquery`
+```bash
+npm install node-jquery
+```
 
 jQuery (3.3.1) and jsDOM are already included as dependencies and do *not* need to be included separately.
 
@@ -17,15 +19,15 @@ jQuery (3.3.1) and jsDOM are already included as dependencies and do *not* need 
 ### Typescript
 
 ```ts
-    import $ from 'jquery-node';
+import $ from 'node-jquery';
 
-    $("<a>DOM</a>").html(); // "DOM"
+$("<a>DOM</a>").html(); // "DOM"
 ```
 
 ### Javascript
 
 ```ts
-    const $ = require('jquery-node');
+const $ = require('node-jquery');
 
-    $("<a>DOM</a>").html(); // "DOM"
+$("<a>DOM</a>").html(); // "DOM"
 ```
